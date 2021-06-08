@@ -6,3 +6,6 @@ def Index(req):
 
 def Common(req):
     return render(req,'common.html')
+
+def login(req):
+    return render(req,'login.html')
